@@ -1,0 +1,36 @@
+
+$colorGrey: #ffffff33;
+$colorWhite: #ffffff;
+
+.navbar {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+   background: $colorGrey;
+   width: 100%;
+}
+
+.brand {
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+    ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+    li a {
+        display: block;
+        text-decoration: none;
+        color: $colorWhite;
+        padding: 1rem;
+    }
+}

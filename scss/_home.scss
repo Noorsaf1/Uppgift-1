@@ -1,0 +1,45 @@
+/*section one Home*/
+
+$colorWhite: #ffffff;
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    position: center;
+    top: 20px;
+   
+    /* Scroll Snap */
+    scroll-snap-align: center;
+
+    h1  {
+
+        color: $colorWhite; 
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+      }
+
+      h3{
+        color: $colorWhite;
+         font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+      }
+      p{
+        color: $colorWhite;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  }
+   
+  #home{
+    background: url(/img/img0.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
